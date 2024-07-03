@@ -1,0 +1,71 @@
+.content {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(180deg, #6c8cea,#2f47b0);
+}
+
+.h1-small{
+    font-size: 2.0rem;
+    line-height: 48px;
+}
+
+.input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #86b7fe;
+  }
+
+.input-group .btn:focus {
+    box-shadow: none;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+}
+
+#todo-list .list-group-item {
+    border: transparent;
+}
+.task-text {
+    width: 90%;
+}
+
+#todo-list .form-check-input {
+    border-radius: 50%;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#todo-list .form-check-input:checked {
+    background-color: #3BD1A0;
+    border-color: #3BD1A0;
+}
+
+#todo-list .form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(59,209,160,.25);
+}
+
+.form-check-input:hover{
+    cursor: pointer;
+}
+
+.delete-button{
+    position: absolute;
+    right: 0;
+    top: 2;
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+    color: #555;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.delete-button:hover{
+    background: #edeef0;
+    cursor: pointer;
+}
